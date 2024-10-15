@@ -1,0 +1,17 @@
+[package]
+name = "twitter_move"
+version = "1.0.0"
+authors = []
+
+[addresses]
+twitter_move = "0xdaecf8f64e0e2306dab8cfd37ee523ef2d632e9a5f1472720303026876d15d41"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
